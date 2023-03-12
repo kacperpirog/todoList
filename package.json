@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"error: no test specifide\" && exit 1 "
+    "start": "tsc --watch"
   },
   "keywords": [],
   "author": "Kacper Piróg",
