@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "users_todo",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.3",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.3.7",
+    "typescript": "^4.2.4"
+>>>>>>> 046374aa2dacf061315d08e9083c1e156169bc14
   }
 }
