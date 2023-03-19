@@ -39,6 +39,10 @@ function addListItem(task: Task) {
     const item = document.createElement("li")
     const label = document.createElement("label")
     const checkbox = document.createElement("input")
+    const button = document.createElement("button")
+button.addEventListener("change", () => {
+    
+})
     checkbox.addEventListener("change", () => {
         task.completed = checkbox.checked
         saveTasks()
